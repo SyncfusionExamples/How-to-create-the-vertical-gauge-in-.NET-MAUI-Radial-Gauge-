@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:gauge="clr-namespace:Syncfusion.Maui.Gauges;assembly=Syncfusion.Maui.Gauges"
+             x:Class="VerticalGauge.MainPage">
+
+    <VerticalStackLayout HorizontalOptions="Center"
+                         VerticalOptions="Center">
+        <gauge:SfLinearGauge Orientation="Vertical"
+                             Maximum="50"
+                             Interval="5">
+            <gauge:SfLinearGauge.Ranges>
+                <gauge:LinearRange StartValue="0"
+                                   EndValue="20"
+                                   Fill="#f44336" />
+                <gauge:LinearRange StartValue="20"
+                                   EndValue="35"
+                                   Fill="#ff9900" />
+                <gauge:LinearRange StartValue="35"
+                                   EndValue="50"
+                                   Fill="#4caf4f" />
+            </gauge:SfLinearGauge.Ranges>
+            <gauge:SfLinearGauge.BarPointers>
+                <gauge:BarPointer Value="30"
+                                  Offset="5"
+                                  Fill="#0075e3"
+                                  CornerStyle="EndCurve"
+                                  Position="Outside">
+                </gauge:BarPointer>
+            </gauge:SfLinearGauge.BarPointers>
+            <gauge:SfLinearGauge.MarkerPointers>
+                <gauge:LinearShapePointer Value="40"
+                                          IsInteractive="True"
+                                          Fill="#757575" />
+            </gauge:SfLinearGauge.MarkerPointers>
+        </gauge:SfLinearGauge>
+    </VerticalStackLayout>
+</ContentPage>
