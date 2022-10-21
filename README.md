@@ -2,7 +2,7 @@
 
 This article contains sample to create the vertical gauge using the [Syncfusion .NET MAUI Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/getting-started) control.
 
-Please refer the KB through this [link]().
+Please refer the KB through this [link](https://www.syncfusion.com/kb/13695/how-to-create-the-vertical-gauge-in-net-maui-radial-gauge-sfradialgauge).
 
 ## Syncfusion controls
 
